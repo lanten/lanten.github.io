@@ -1,0 +1,24 @@
+.banner-wrap {
+  width: 100vw;
+  height: 320px;
+  position: relative;
+  margin-top: -52px; }
+  @media (max-width: 750px) {
+    .banner-wrap {
+      height: 280px; } }
+  @media (max-width: 680px) {
+    .banner-wrap {
+      height: 240px; } }
+  .banner-wrap .banner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover; }
+    .banner-wrap .banner-content {
+      padding-top: 52px; }
+    .banner-wrap .banner-title {
+      font-size: 36px; }
+      @media (max-width: 680px) {
+        .banner-wrap .banner-title {
+          font-size: 24px; } }
+

@@ -1,0 +1,100 @@
+.home {
+  margin-bottom: 14px; }
+
+.article-list {
+  width: 100%; }
+
+.articles-list-item {
+  position: relative;
+  overflow: hidden; }
+  .articles-list-item .item-background {
+    position: absolute;
+    background-size: cover;
+    left: -2px;
+    right: -2px;
+    top: -2px;
+    bottom: -2px;
+    z-index: 0;
+    -webkit-filter: blur(2px);
+            filter: blur(2px);
+    opacity: 0.15; }
+    .articles-list-item .item-background::before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      background-color: rgba(238, 238, 238, 0.45);
+      left: inherit;
+      top: inherit;
+      right: inherit;
+      bottom: inherit; }
+  .articles-list-item .item-content {
+    position: relative;
+    z-index: 2;
+    width: 100%; }
+    .articles-list-item .item-content .title {
+      color: #3c4859; }
+      .articles-list-item .item-content .title:hover {
+        color: #8590a6; }
+    .articles-list-item .item-content .description {
+      color: #8590a6;
+      margin: 14px 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; }
+      @media (max-width: 680px) {
+        .articles-list-item .item-content .description {
+          margin: 8px 0; } }
+  .articles-list-item .item-footer {
+    z-index: 2; }
+  .articles-list-item .labels-item {
+    color: #fff;
+    margin-right: 7px;
+    font-size: 12px;
+    padding: 0 6px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 3px; }
+    @media (max-width: 680px) {
+      .articles-list-item .labels-item {
+        margin-right: 4px; } }
+  @media (max-width: 680px) {
+    .articles-list-item .more-info {
+      display: none; } }
+
+.pagination-controller {
+  margin-bottom: 14px; }
+  @media (max-width: 680px) {
+    .pagination-controller {
+      margin-bottom: 8px; } }
+
+.side-panel {
+  margin-left: 14px;
+  width: 280px; }
+  @media (max-width: 680px) {
+    .side-panel {
+      position: fixed;
+      right: 0;
+      top: 52px;
+      z-index: 30;
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+      transition: all 0.8s cubic-bezier(0.175, 0.82, 0.265, 1);
+      opacity: 0;
+      width: 100vw;
+      height: calc(100vh - 52px); }
+      .side-panel.show {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+        opacity: 1; }
+      .side-panel .label-list {
+        height: calc(100vh - 52px);
+        width: 280px;
+        position: absolute;
+        right: 0; }
+      .side-panel .avatar {
+        display: none; } }
+  .side-panel .label-list .rc-button.active {
+    background-color: #74839b;
+    color: #fff; }
+
