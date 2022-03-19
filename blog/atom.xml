@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.lanten.me/blog</id>
+    <title>LANTEN Blog</title>
+    <updated>2021-08-12T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.lanten.me/blog"/>
+    <subtitle>LANTEN Blog</subtitle>
+    <icon>https://www.lanten.me/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Typescript - 进阶篇]]></title>
+        <id>typescript-advanced</id>
+        <link href="https://www.lanten.me/blog/typescript-advanced"/>
+        <updated>2021-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- 对基础篇的补充]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typescript - 基础篇]]></title>
+        <id>typescript-base</id>
+        <link href="https://www.lanten.me/blog/typescript-base"/>
+        <updated>2021-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[基本概念]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 WEB 性能优化]]></title>
+        <id>web-performance-optimization</id>
+        <link href="https://www.lanten.me/blog/web-performance-optimization"/>
+        <updated>2021-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文讨论的是前后端分离模式下前端网页的性能优化，追求更快的响应速度，更少的网络资源，内存资源，算力资源的消耗。我将目前了解的相关内容整理至此，尚未完善，随时补充。]]></summary>
+    </entry>
+</feed>
